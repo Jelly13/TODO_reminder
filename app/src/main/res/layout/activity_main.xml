@@ -23,7 +23,7 @@
 
     <CalendarView
         android:layout_width="280dp"
-        android:layout_height="400dp"
+        android:layout_height="440dp"
         android:id="@+id/calendarView"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentLeft="true"
