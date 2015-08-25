@@ -20,14 +20,14 @@
         android:clickable="true"
         android:background="#ffffa853" />
 
-    <!-->
+
     <CalendarView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="400dp"
         android:id="@+id/calendarView"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-        <-->
+
 
 </RelativeLayout>
