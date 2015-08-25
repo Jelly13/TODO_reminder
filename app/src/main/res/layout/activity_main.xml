@@ -23,11 +23,25 @@
 
     <CalendarView
         android:layout_width="280dp"
-        android:layout_height="440dp"
+        android:layout_height="400dp"
         android:id="@+id/calendarView"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/calendarView"
+        android:layout_alignRight="@+id/calendarView"
+        android:layout_alignEnd="@+id/calendarView"
+        android:src="@drawable/linkedin"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
 
 
 </RelativeLayout>
